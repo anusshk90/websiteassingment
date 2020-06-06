@@ -1,0 +1,113 @@
+.navbar {
+   background-color:  aqua !important;
+   box-shadow: 2px 4px 6px deepskyblue !important;
+}
+.nav-item{
+    color: aqua !important;
+    font-weight: bold;
+}
+.nav-link{
+    color: rosybrown !important;
+    font-weight: bold;
+}
+.body{
+    background-color: powderblue !important;
+}
+.fa-cart-plus,.fa-user-circle-o{
+    font-size: 32px !important;
+    
+}
+
+.fa-truck,.fa-life-ring,.fa-thumbs-up,.fa-facebook-official,.fa-whatsapp,.fa-envelope{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: aqua !important;
+}
+.maincard1,.maincard2,.maincard3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color:bisque;
+    box-shadow: 2px 4px 6px rosybrown;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.a1,.a2,.a3{
+    color:rosybrown;
+}
+@media screen and (max-width: 600px){
+    .maincard1,.maincard2,.maincard3 {
+        width: 100%;
+    }
+}
+.container{
+    margin-top: 10px;
+}
+.productsdetail,.VEGETABLE1,.FRUIT1{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    box-shadow: 2px 4px 6px deepskyblue;
+    font-style: oblique;
+    
+    
+
+}
+.f01{
+    color: rosybrown;
+    text-shadow:2px 2px 4px bisque;
+}
+@media screen and (max-width: 600px){
+    .f01 {
+        font-size: 30px%;
+    }
+}
+#carouselExampleIndicators{
+    margin-top: 15px;
+}
+.card{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.card-text{
+    font-weight: BOLD;
+}
+.btn-primary{
+    width: 100%;
+    background-color: aqua;
+    color: rosybrown;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px){
+    .card { width: 100%;
+        height: 100%;
+
+        
+    }
+}
+.footer{
+    background-color: bisque;
+    color: rosybrown;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+.footer > div{
+    text-align: center;
+}
